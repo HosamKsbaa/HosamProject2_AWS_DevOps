@@ -1,10 +1,17 @@
+
+
+# commands
+# aws cloudformation create-stack --stack-name Stack1 --template-body file://Network.yml  --parameters file://NetWorkPara.json --region=us-east-1
+# aws cloudformation update-stack --stack-name Stack1 --template-body file://Network.yml  --parameters file://NetWorkPara.json --region=us-east-1
+
+
 Parameters:
 
     EnvironmentName:
         Description: An environment name that will be prefixed to resource names
         Type: String
 
-    VpcCIDR: 
+    VpcCIDR:
         Description: Please enter the IP range (CIDR notation) for this VPC
         Type: String
         Default: 10.0.0.0/16
