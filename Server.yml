@@ -1,0 +1,6 @@
+Parameters:
+
+    EnvironmentName:
+        Description: Project 2 Server Config
+        Type: String
+Resources:
