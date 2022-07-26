@@ -1,4 +1,8 @@
-#aws cloudformation create-stack --stack-name Stack3 --template-body file://Server.yml  --parameters file://ServerPara.json --region=us-east-1
+# aws cloudformation create-stack --stack-name Stack1 --template-body file://Network.yml  --parameters file://NetWorkPara.json --region=us-east-1
+# aws cloudformation wait stack-create-complete --stack-name $Stack1
+# aws cloudformation create-stack --stack-name Stack3 --template-body file://Server.yml  --parameters file://ServerPara.json --region=us-east-1
+
+
 Parameters:
 
   EnvironmentName:
