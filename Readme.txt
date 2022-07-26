@@ -1,4 +1,4 @@
 
-Diagram link     : https://lucid.app/lucidchart/f4c27a6b-51fc-44fd-ade4-281ea3a1aebd/edit?invitationId=inv_11891438-bbda-46c3-b55f-ee65fba85483#
+Diagram link    : https://lucid.app/lucidchart/f4c27a6b-51fc-44fd-ade4-281ea3a1aebd/edit?invitationId=inv_11891438-bbda-46c3-b55f-ee65fba85483#
 Lb link         : http://stack-webap-157gf69oib2w3-476830467.us-east-1.elb.amazonaws.com
 GitHubLink      : https://github.com/HosamKsbaa/HosamProject2_AWS_DevOps
