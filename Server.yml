@@ -55,7 +55,7 @@ Resources:
           echo "it works! Udagram, Udacity" > /var/www/html/index.html
       # ToDo: AMI ID of Ubuntu Linux machine. Too get one, try creating a VM from the web console. 
       ImageId: ami-0747bdcabd34c712a
-      KeyName: VocareumKey2
+     # KeyName: VocareumKey2
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.small
