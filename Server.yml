@@ -125,3 +125,9 @@ Outputs:
   LoadBalancerUrl:
     Description: The URL of the Load balancer
     Value: !GetAtt WebAppLB.DNSName
+  LoadBalancer:
+    Description: A reference to the Application Load Balancer
+    Value: !Ref WebAppLB
+  Listener:
+    Description: A reference to a port 80 listener
+    Value: !Ref Listener
